@@ -1,0 +1,429 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+}
+
+.MainNav {
+    padding: 17px;
+    font-family: SlidoSansFont, helvetica, arial, sans-serif;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 0.125rem 0.125rem rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+}
+.innerNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 32px;
+}
+.NavLinksUl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.NavLinksUl2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navLinks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.NavItems {
+    padding: 8px 0px;
+    font-size: 16px;
+    color: black;
+}
+.NavItems a {
+    color: black;
+    padding: 0px;
+}
+.signBtn {
+    margin-left: 3rem;
+    padding: 0px !important;
+}
+.signBtn a {
+    padding: 11px 32px !important;
+    background: #39ac37;
+    border-radius: 0.25rem;
+    color: white !important;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.subNav {
+    background-color: black;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subNav .container {
+    height: 100%;
+}
+.subHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-wrap: wrap;
+}
+.join {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    padding-right: 16px;
+}
+.join h4 {
+    font-weight: 700;
+    /* padding-top: ; */
+    margin: 0px;
+}
+
+.inputJoin {
+    padding: 10px 0px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 25.9%;
+    font-weight: bold;
+}
+.inputJoinlabel {
+    display: flex;
+    align-items: center;
+    /* jus */
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 0.25rem;
+    border: 0.0625rem solid #999;
+}
+.inputJoinlabel input {
+    border: none;
+    /* width: 100%;  */
+    /* padding: 0.5rem 0.3rem 0.5rem 0.4rem; */
+    height: 100%;
+    outline: none;
+    width: 55%;
+    font-size: 1.125rem;
+}
+.inputJoinlabel .hash {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #39ac37;
+    /* position: absolute; */
+}
+.inputJoinlabel .submitBtn {
+    background-color: #39ac37;
+    color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+    font-size: 15px;
+}
+.inputJoinlabel .clearBtn {
+    border: none;
+    background-color: transparent;
+    padding: 10px 20px;
+    color: #395e9c;
+}
+.homeImg {
+    padding: 0px;
+}
+.homeImg img {
+    width: 100%;
+}
+.section1 {
+    padding: 0px;
+    margin: 0px;
+}
+.textDiv {
+    /* padding: 0px; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 56px;
+}
+.textDiv .text {
+    width: 67%;
+}
+.textDiv .text h1 {
+    color: #000;
+    font-weight: 600;
+    font-size: 2.5rem;
+    padding-bottom: 40px;
+}
+.freeBtn {
+    display: inline-block;
+    width: 60%;
+    font: 600 1rem/1.5rem SlidoSansFont, helvetica, arial, sans-serif;
+    padding: 0.9375rem 2rem;
+    border: none;
+    border-radius: 0.25rem;
+    background: #39ac37;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    /* outline: none; */
+    outline: none;
+}
+.freeBtn:hover {
+    background: #000;
+    color: #fff;
+}
+.innerText {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 62px;
+}
+.freedemo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.freedemo a {
+    color: #39ac37;
+}
+.freedemo a:hover {
+    text-decoration: none;
+}
+body.show {
+    height: 100vh;
+    overflow-y: hidden;
+}
+.navbar-toggler {
+    /* background-color: #39ac37; */
+}
+.navbar-toggler-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.togBtn {
+    outline: none !important;
+}
+.MainNav .show {
+    height: calc(100vh - 74px);
+}
+.Section2 {
+    padding: 50px;
+}
+.benifitsDiv {
+    display: flex;
+    margin-top: 26px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.benifitsDiv .points div {
+    display: flex;
+    align-items: center;
+    color: #000;
+    justify-content: center;
+}
+.benifitsDiv .points div img {
+    width: 41px;
+    margin: 9px;
+}
+.benifitsDiv .points div h5 {
+    font-size: 24px;
+    margin: 0px;
+    font-weight: 600;
+}
+.section2Head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+.section2Head h1 {
+    font-size: 48px;
+    color: #000;
+    text-align: center;
+}
+.Section2Div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.section3 {
+    background-color: #f5f5f5;
+}
+.sec3Con {
+    padding: 5rem 1rem;
+}
+.textInt {
+    text-align: center;
+}
+.textInt h2 {
+    font-size: 38px;
+    color: #000;
+    margin-bottom: 24px;
+}
+.textInt p {
+    font-size: 18px;
+    color: #000;
+}
+.imgInt {
+    text-align: center;
+    margin-top: 48px;
+}
+.imgInt img {
+    width: 63%;
+}
+.AccDiv {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.AccDiv .video video {
+    width: 100%;
+}
+.Section2Div .accordion-item {
+    width: 456px;
+    padding: 32px;
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    margin-bottom: 20px;
+}
+.Section2Div .accordion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.Section2Div .accordion-button {
+    border: none;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: left;
+}
+.Section2Div .accordionBody {
+    border: none;
+}
+.Section2Div .accordion-button:focus {
+    /* z-index: 3; */
+    border: none;
+    box-shadow: unset;
+}
+.Section2Div .show {
+    /* border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black; */
+    /* box-shadow: 0px 21px 42px -34px black; */
+}
+/* .Section2Div .accordion-button .collapsed{
+   
+} */
+.Section2Div .accordion-button:not(.collapsed) {
+    color: black;
+    /* border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black; */
+    /* box-shadow: 0px -11px 42px -24px black; */
+    background-color: transparent !important;
+}
+.socialLang {
+    display: flex;
+    flex-wrap: wrap;
+}
+.socialLang .lang {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.socialLang select {
+    border: none;
+    width: 11rem;
+}
+.socialLang p {
+    font-weight: bolder;
+    margin-right: 20px;
+}
+@media screen and (max-width: 1440px) {
+    .innerText {
+        padding: 0px;
+    }
+    .textDiv .text {
+        width: auto;
+    }
+}
+@media screen and (max-width: 990px) {
+    .navLinks {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center */
+        justify-content: normal;
+    }
+    .NavLinksUl,
+    .NavLinksUl2 {
+        align-items: start;
+        width: 100%;
+    }
+    .signBtn {
+        margin-left: 0;
+        /* padding: 0px !important; */
+        width: 100%;
+    }
+    .signBtn a {
+        width: 100%;
+    }
+    .NavItems a {
+        /* color: black; */
+        /* padding: 0px; */
+        font-weight: 600;
+    }
+}
+@media screen and (max-width: 767px) {
+    .Section2Div .accordion-item {
+        width: 100%;
+    }
+    .Section2 {
+        padding: 20px;
+    }
+    .subNav {
+        height: auto;
+        padding-top: 1.5rem;
+    }
+    .inputJoin {
+        width: auto;
+    }
+    .benifitsDiv {
+        justify-content: unset;
+    }
+    .textDiv {
+        padding: 20px 16px;
+    }
+    .freedemo .freeBtn {
+        width: 100%;
+    }
+    .freedemo a {
+        color: #39ac37;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    .MainNav {
+        padding: 17px 0px;
+    }
+}
