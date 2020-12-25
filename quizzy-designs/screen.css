@@ -1,9 +1,9 @@
 /* toggle classses */
 
-.toggle-None {
+.toggle-none {
     display: none !important;
 }
-.toggle-Block {
+.toggle-block {
     display: block !important;
 }
 .toggle-flex {
