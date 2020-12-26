@@ -61,6 +61,9 @@ p {
     text-decoration: none;
     display: inline-block;
 }
+.signBtn a:hover{
+    background: black;
+}
 .subNav {
     background-color: black;
     height: 62px;
@@ -284,6 +287,19 @@ body.show {
     font-size: 18px;
     color: #000;
 }
+.textInt a{
+    font-weight: 700;
+    padding: 0;
+    border: none;
+    background: 0 0;
+    color: #39ac37;
+    text-decoration: underline;
+    width: initial;
+    margin-top: 1rem;
+}
+.textInt a:hover{
+    text-decoration: none;
+}
 .imgInt {
     text-align: center;
     margin-top: 48px;
@@ -347,7 +363,21 @@ body.show {
 .socialLang {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #f5f5f5;
+    margin-bottom: 2rem;
 }
+.socialLang .socailIcon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .socialLang .lang {
     display: flex;
     align-items: center;
@@ -361,12 +391,51 @@ body.show {
     font-weight: bolder;
     margin-right: 20px;
 }
+.footerLogo {
+    margin-bottom: 40px;
+}
+.footerContact {
+    padding: 5rem 2rem 1.5rem;
+}
+.right {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    color: #999;
+    font-size: 14px;
+    /* text-align: center; */
+}
+.footerMenu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+.footerMenu a{
+    margin-right: 20px;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+.footerMenu a:hover{
+    color: #39ac37;
+    text-decoration: underline;
+}
 @media screen and (max-width: 1440px) {
     .innerText {
         padding: 0px;
     }
     .textDiv .text {
         width: auto;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .inputJoin{
+        width: unset;
+    }
+    .sec2headDiv{
+        width: 80%;
     }
 }
 @media screen and (max-width: 990px) {
@@ -394,13 +463,16 @@ body.show {
         /* padding: 0px; */
         font-weight: 600;
     }
+  
+.footerMenu a{
+    margin-right: 16px;
 }
 @media screen and (max-width: 767px) {
     .Section2Div .accordion-item {
         width: 100%;
     }
     .Section2 {
-        padding: 20px;
+        padding: 20px 0px;
     }
     .subNav {
         height: auto;
@@ -425,5 +497,15 @@ body.show {
     }
     .MainNav {
         padding: 17px 0px;
+    }
+    .copyright {
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .footerMenu a {
+        margin-right: 6px;
+    }
+    .sec2headDiv {
+        width: 100%;
     }
 }
