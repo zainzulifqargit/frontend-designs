@@ -136,6 +136,9 @@ p {
     height: 30px;
     border-radius: 40px;
     font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .inputJoinlabel .clearBtn {
     border: none;
@@ -478,6 +481,9 @@ body.show {
         height: auto;
         padding-top: 1.5rem;
     }
+    .inputJoinlabel .clearBtn{
+        padding: 10px 10px;
+    }
     .inputJoin {
         width: auto;
     }
@@ -507,5 +513,8 @@ body.show {
     }
     .sec2headDiv {
         width: 100%;
+    }
+    .footerMenu {
+        justify-content: center;
     }
 }
